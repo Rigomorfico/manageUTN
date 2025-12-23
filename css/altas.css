@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slategrey;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23f9f9f9' fill-opacity='0.09' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+
+h1 {
+    -webkit-text-stroke: 0.8px green;
+    font-family: 'Corbel';
+    color: #F2F3F4;/*#333333;*/
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+#pFont{
+    font-size:20px;
+    margin-left:10%;
+    margin-right:10%;
+    text-align:justify;
+}
+
+#trabajos {
+    /*background-color: #F2F3F4;*/
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tdt {
+    text-align: left;
+    font-weight: none;
+    color: #333333;
+}
+
+.tdt p{
+    margin-left: 5%;
+}
+
+#trabajos img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.btnSM {
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}

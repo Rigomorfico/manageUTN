@@ -1,0 +1,173 @@
+body{
+  background-color: #D3D3D3;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23000000' fill-opacity='0.09' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+h1 {
+  background-color: #00C040;
+  color: floralwhite;
+  text-align:center;
+}    
+
+p {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  /*color: floralwhite;*/
+  font-family: 'Verdana';
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#ir_busqueda {
+  display: block;
+  width: 200px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #00C040;
+  color: floralwhite;
+  text-align:center;
+  border-radius: 5px;
+  border-color: floralwhite;
+  border-width: 1px;
+}
+#ir_busqueda:hover {
+  background-color: springgreen;
+  text-decoration: underline;
+}
+
+.ancla:hover {
+  background-color: floralwhite;
+  color: #D3D3D3;
+}
+
+/***STYLE PARA EL FILE***/
+.zmdi-upload{
+    padding: 0px 15px 0px 0px;
+}
+.zmdi-upload:hover{
+    color: black;
+    transition: color 0.2s linear 0.2s;
+}
+
+.file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.file-input__label {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 12px;
+  background-color: #0275d8;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+/*******/
+
+.btn-enviar{
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 45px;
+  background-color: coral;
+  border: none;
+  border-radius: 2px;
+}
+.btn-enviar:hover{
+  color: #333;
+}
+
+h6{
+  color:#333; 
+  background-color: #cecece; 
+  padding: 10px 0px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #00C040;
+}
+
+/* ANIMACION DE CARGA */
+.cargando {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f7f7f7;
+  z-index: 999999;
+}
+.cargando .loader-inner {
+  position: absolute;
+  border: 2px solid #00C040;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 20px);
+  top: calc(50% - 20px);
+  border-right: 0;
+  border-top-color: transparent;
+  -webkit-animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+  animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+}
+
+@-webkit-keyframes loader-outter {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader-outter {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader-inner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loader-inner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}

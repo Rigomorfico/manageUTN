@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D3D3D3;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23000000' fill-opacity='0.09' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+h1 {
+  background-color: #00C040;
+  color: floralwhite;
+  text-align:center;
+}
+
+.card-a:hover {
+    text-decoration: none;
+}
+
+.card-img:hover {
+    opacity: 0.8;
+}
+
+.card-h5 {
+    color: #00C040;
+}
+
+.card-p {
+    color: #000000;
+    text-align: justify;
+}
+
+.card-h5:hover {
+    color: #D3D3D3;
+}
+
+.card-p:hover {
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    color: #D3D3D3;
+}
+
+.barra-flotante a img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.barra-flotante a img:hover{
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px) {
+    .barra-flotante {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+} 
+
+.bienvenida{
+    font-family: 'Muli';
+}
+
+.bienvenida b{
+    font-family: 'Poppins', sans-serif;
+    /*-webkit-text-stroke: 1px floralwhite;#00923F;*/
+    color: #00C040; /*color: #FFFFFF;/*F2F3F4*/
+    font-size: 22px;
+}
+
+/* SECCION DE MISION Y VISION */
+.bFont{
+    margin-left: 25px;
+    font-size:25px;
+}
+
+.pFont{
+    color: #000000;
+    font-size:18px;
+    margin-left:50px;
+    margin-right:50px;
+    text-align:justify;
+}
+
+#MV{
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    color: #00923F;
+    background-color: #FFFFFF;/*#F2F3F4 85C1E9*/
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#is {
+    display: block;
+    width: 350px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #00C040;
+    color: floralwhite;
+    font-size: 25px;
+    font-family: 'Arial';
+    font-style: bold;
+    text-align:center;
+    border-radius: 5px;
+    border-color: floralwhite;
+    border-width: 1px;
+    text-decoration: none;
+}
+
+#is:hover{
+    background-color: springgreen;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+#leyenda{
+    font-size: 30px;
+    font-family: 'Arial';
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#fondo {
+    background-color: white;
+    margin-left: 10%;
+    padding-left: 5%;
+    margin-right: 10%;
+    padding-right: 5%;
+    border-radius: 10px;
+}
